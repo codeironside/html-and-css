@@ -1,0 +1,113 @@
+
+h1 {
+    color:green;
+    font-size: 20px;
+    
+}
+ul li a{
+    color:pink;
+    text-decoration:none;
+    
+}
+ul li  a:hover{
+    color:bisque;
+}
+.css-selector {
+    width: 125px;
+    height: 35px;
+    left: 570px;
+    position: relative;
+    bottom: -175px;
+    font-size:15px;
+    border: none;
+    color: white;
+    font-weight:bold;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: linear-gradient(157deg, #0a5465, #8db7c1, #0000ff);
+    background-size: 600% 600%;
+  
+    -webkit-animation: butto 38s ease infinite;
+    -moz-animation: butto 38s ease infinite;
+    animation: butto 38s ease infinite;
+  }
+  
+  @-webkit-keyframes butto {
+    0%{background-position:24% 0%}
+    50%{background-position:77% 100%}
+    100%{background-position:24% 0%}
+  }
+  @-moz-keyframes butto {
+    0%{background-position:24% 0%}
+    50%{background-position:77% 100%}
+    100%{background-position:24% 0%}
+  }
+  @keyframes butto {
+    0%{background-position:24% 0%}
+    50%{background-position:77% 100%}
+    100%{background-position:24% 0%}
+  }
+  .css-selector:hover {
+    width: 125px;
+    height: 35px;
+    left: 570px;
+    position: relative;
+    bottom: -175px;
+    font-size:15px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: linear-gradient(132deg, #0a5465, #8db7c1);
+    background-size: 400% 400%;
+  
+    -webkit-animation: butto 55s ease infinite;
+    -moz-animation: butto 55s ease infinite;
+    animation: butto 55s ease infinite;
+  }
+  
+  @-webkit-keyframes butto {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+  }
+  @-moz-keyframes butto {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+  }
+  @keyframes butto {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+  }
+h2 a:hover{
+    color:orange;
+}
+/* we use the dot to represent a class in css */
+.made-in-one{
+    
+    box-shadow: 5px 10px #88888888;
+}
+
+.chessboard {
+    border-radius: 20px;
+}
+.chessboard:hover{
+    -webkit-box-shadow: 3px -5px 27px 21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px -5px 27px 21px rgba(0,0,0,0.75);
+    box-shadow: 3px -5px 27px 21px rgba(0,0,0,0.75);
+}
+.meetboard:hover {
+    box-shadow: 5px 10px coral;
+}
+.made-in-two:hover {
+    border-radius: 20px;
+
+}

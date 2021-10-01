@@ -1,0 +1,207 @@
+.rounded {
+    border-radius:30px;
+    position: relative;
+    left: 520px;
+    bottom: -35px;
+    
+}
+.circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.scroller {
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-color:transparent;
+    scrollbar-width: thin;
+  }
+
+.paddingm{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:  2px;
+   
+  }
+  
+.paddingm:focus{
+    border-bottom-style:  2px;
+    outline: none;
+}
+  
+::placeholder {
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    text:"name ";
+    padding-bottom:0px;
+  }
+.no-outline:hover {
+    border-bottom-style: 2px;
+    outline: none;
+  }
+.backgroundcolor{
+    background-color:transparent;
+    border-bottom-color: white;
+}
+.size{
+    color:black;
+    left: 520px;
+    position: relative;
+    bottom: -100px;
+    width: 90%;
+    height : 17px;
+    font-size:15px;
+    font-weight:bold;
+    text-transform: capitalize;
+}
+.size1{
+  color:black;
+  left: 520px;
+  position: relative;
+  bottom: -135px;
+  width: 90%;
+  height : 17px;
+  font-size:15px;
+  font-weight:bold;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+.body {
+  width: 125px;
+  height: 35px;
+  left: 590px;
+  position: relative;
+  bottom: -175px;
+  font-size:15px;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight:bold;
+  background: linear-gradient(63deg, #8BA1A9, #8BA1A9, #E1E8EB, #F5F7F8, #9FBAE93D);
+  background-size: 1000% 1000%;
+  animation: GradientBackground 39s ease infinite;
+}
+
+@keyframes GradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.body:hover {
+  background-color :red;
+  box-shadow: 10px 7px 124px -39px rgba(52,103,120,0.94);
+-webkit-box-shadow: 10px 7px 124px -39px rgba(52,103,120,0.94);
+-moz-box-shadow: 10px 7px 124px -39px rgba(52,103,120,0.94);
+  background: linear-gradient(188deg, #8BA1A9, #8BA1A9, #E1E8EB, #F5F7F8, #9FBAE921);
+  background-size: 1000% 1000%;
+  animation: GradientBackground 7s ease infinite;
+}
+
+@keyframes GradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.linktags{
+  left: 600px;
+  position: relative;
+  bottom: -190px;
+  font-weight:bold;
+  color: white;
+  font-style: Arial;
+
+}
+.linktags1{
+  left: 605px;
+  position: relative;
+  bottom: -190px;
+  text-decoration:none;
+  color: red;
+  font-style: italic;
+  font-weight:bold;
+
+}
+.child { display: inline-block; }
+
+.linktags2{
+  left: 540px;
+  position: relative;
+  bottom: -185px;
+  font-weight:bold;
+  color: white;
+  font-style: Arial;
+
+}
+.linktags3{
+  left: 555px;
+  position: relative;
+  bottom: -185px;
+  text-decoration:none;
+  color: red;
+  font-style: italic;
+  font-weight:bold;
+
+}
+.child1 { display: inline-block; }
+
+.transparent1{
+  left: 555px;
+  position: relative;
+  bottom: -195px;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  background:transparent;
+}
+.transparent{
+  left: 595px;
+  position: relative;
+  bottom: -195px;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  background:transparent;
+}
+.transparent2{
+  left: 615px;
+  position: relative;
+  bottom: -195px;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  background:transparent;
+}
